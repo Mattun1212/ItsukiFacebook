@@ -9,8 +9,9 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var nameArray = ["まとん","エリーゼのために","G線上のアリア"]
-    var newName = "" //値渡し用変数
+    var nameArray = [String]()
+    var saveData: UserDefaults = UserDefaults.standard
+    
     
     @IBOutlet var table: UITableView!
 
@@ -18,11 +19,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         table.dataSource = self
         table.delegate = self
-        if (newName != "" ){
-            nameArray.append(newName)
-        }
+        nameArray = saveData.object(forKey: "data") as? [String] ?? []
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        table.reloadData()
+    }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return nameArray.count

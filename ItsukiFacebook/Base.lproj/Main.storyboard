@@ -34,9 +34,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="j7O-LK-zl5">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="XQv-jO-ofG">
+                        <barButtonItem key="leftBarButtonItem" image="chevron.backward" catalog="system" id="2cB-OR-gjb">
                             <connections>
-                                <action selector="back" destination="K0w-WR-W4c" id="iDL-XF-Rpk"/>
+                                <action selector="back" destination="K0w-WR-W4c" id="CNR-Is-6lW"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="w4b-Lw-oST">
+                            <connections>
+                                <action selector="save" destination="K0w-WR-W4c" id="6hE-oa-Dqt"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
