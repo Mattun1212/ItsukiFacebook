@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4664BF8E27A048B3008E7589 /* AddInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664BF8D27A048B3008E7589 /* AddInfoViewController.swift */; };
 		467E31142798193800EFA9B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E31132798193800EFA9B8 /* AppDelegate.swift */; };
 		467E31162798193800EFA9B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E31152798193800EFA9B8 /* SceneDelegate.swift */; };
 		467E31182798193800EFA9B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E31172798193800EFA9B8 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4664BF8D27A048B3008E7589 /* AddInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoViewController.swift; sourceTree = "<group>"; };
 		467E31102798193800EFA9B8 /* ItsukiFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsukiFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467E31132798193800EFA9B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		467E31152798193800EFA9B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				467E31152798193800EFA9B8 /* SceneDelegate.swift */,
 				467E31172798193800EFA9B8 /* ViewController.swift */,
 				467E31192798193800EFA9B8 /* Main.storyboard */,
+				4664BF8D27A048B3008E7589 /* AddInfoViewController.swift */,
 				467E311C2798193900EFA9B8 /* Assets.xcassets */,
 				467E311E2798193900EFA9B8 /* LaunchScreen.storyboard */,
 				467E31212798193900EFA9B8 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				467E31182798193800EFA9B8 /* ViewController.swift in Sources */,
 				467E31142798193800EFA9B8 /* AppDelegate.swift in Sources */,
+				4664BF8E27A048B3008E7589 /* AddInfoViewController.swift in Sources */,
 				467E31162798193800EFA9B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
